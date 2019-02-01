@@ -1,0 +1,28 @@
+name: BuildUHC
+api: 3.0.6
+version: 1.1.0
+main: builduhc\BuildUHC
+author: EnesTNTm, BartekMCPE
+description: BuildUHC Minigames Plugins
+website: http://www.nowalegacy.com/buhc-mcpe1+8
+
+permissions:
+  buhc.cmd:
+    description: BUHC PERM
+    default: op
+    children:
+      buhc.cmd.help:
+        description: BUHC PERM
+        default: op
+      buhc.cmd.create:
+        description: BUHC PERM
+        default: op
+      buhc.cmd.remove:
+        description: BUHC PERM
+        default: op
+      buhc.cmd.set:
+        description: BUHC PERM
+        default: op
+      buhc.cmd.arenas:
+        description: BUHC PERM
+        default: op
