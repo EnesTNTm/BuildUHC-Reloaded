@@ -68,8 +68,8 @@ class ArenaScheduler extends Task {
                         $this->plugin->broadcastMessage("Bu kadar Bekleyemem Hemen Saldırayım");
                         break;
                     case 11 * 60:
-                    EconomyAPI::getInstance()->addMoney($player, 10);
-                        $this->plugin->broadcastMessage("§aBu Kadar Yaşadığın İçin 10 Nowa Parasını Hak ettin");
+
+                        $this->plugin->broadcastMessage("");
                         break;
                     case 10 * 60:
                         $this->plugin->broadcastMessage("");
