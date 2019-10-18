@@ -17,7 +17,7 @@ class Commands extends Command implements PluginIdentifiableCommand {
 
     public function __construct(BuildUHC $plugin) {
         $this->plugin = $plugin;
-        parent::__construct("builduhc", "BuildUHC komutları", \null, ["buhc"]);
+        parent::__construct("nowalegacystyle", "NowaLegacy Menüleri", \null, ["ngts"]);
     }
 
     /**
